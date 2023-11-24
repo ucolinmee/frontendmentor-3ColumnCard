@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+img {
+    width: 50px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+}
+
+button {
+    width: 8rem;
+    height: 3rem;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 30px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.card {
+    display: flex;
+    border-radius: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+.left {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2.5rem;
+}
+
+.left button {
+    color: hsl(31, 77%, 52%);
+}
+
+.middle {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2.5rem;
+}
+
+.middle button {
+    color: hsl(184, 100%, 22%);
+}
+
+.right {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2.5rem;
+}
+
+.right button {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  align-self: flex-end;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
