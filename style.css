@@ -13,31 +13,42 @@ img {
 h1 {
     color: hsl(0, 0%, 95%);
     font-family: "Big Shoulders Display", sans-serif;
+    margin-top: 2.5rem;
+    font-size: 35px;
 }
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: "Lexend Deca", sans-serif;
+    line-height: 20pt;
+    margin-bottom: 5rem;
+    opacity: 0.7;
 }
 
 button {
-    width: 8rem;
+    width: 10rem;
     height: 3rem;
     background-color: hsl(0, 0%, 95%);
     border: none;
     border-radius: 30px;
     font-family: "Lexend Deca", sans-serif;
+    cursor: pointer;
+}
+
+.main {
+  margin: 10em;
 }
 
 .card {
     display: flex;
-    border-radius: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 875px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    padding: 2.5rem;
 }
 
 .left {
@@ -49,6 +60,12 @@ button {
     color: hsl(31, 77%, 52%);
 }
 
+.left button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 1.5px solid hsl(0, 0%, 95%);
+}
+
 .middle {
   background-color: hsl(184, 100%, 22%);
   padding: 2.5rem;
@@ -56,6 +73,12 @@ button {
 
 .middle button {
     color: hsl(184, 100%, 22%);
+}
+
+.middle button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 1.5px solid hsl(0, 0%, 95%);
 }
 
 .right {
@@ -67,6 +90,12 @@ button {
     color: hsl(179, 100%, 13%);
 }
 
+.right button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 1.5px solid hsl(0, 0%, 95%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -74,4 +103,29 @@ button {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 750px) {
+  img {
+    width: 60px;
+  }
+  h1 {
+    margin-bottom: 0;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+  .card {
+    flex-direction: column;
+    width: 350px;
+  }
+  .left {
+    padding-right: 4.75rem;
+  }
+  .middle {
+    padding-right: 4.75rem;
+  }
+  .right {
+    padding-right: 4.75rem;
+  }
 }
