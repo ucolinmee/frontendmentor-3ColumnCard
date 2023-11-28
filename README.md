@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ucolinmee/frontendmentor-3ColumnCard)
-- Live Site URL: [Add live site URL here](https://ucolinmee.github.io/frontendmentor-3ColumnCard/)
+- Solution URL: [https://github.com/ucolinmee/frontendmentor-3ColumnCard]
+- Live Site URL: [https://ucolinmee.github.io/frontendmentor-3ColumnCard/]
 
 ## My process
 
